@@ -1,0 +1,64 @@
+{
+  "fournisseurs": [
+    {
+      "id": "1",
+      "nom": "Fournisseur Alpha"
+    },
+    {
+      "id": "2",
+      "nom": "Fournisseur Beta"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "nom": "Stylo",
+      "prix": 1.5
+    },
+    {
+      "id": "2",
+      "nom": "Cahier",
+      "prix": 2
+    },
+    {
+      "id": "3",
+      "nom": "Classeur",
+      "prix": 3.5
+    }
+  ],
+  "approvisionnements": [
+    {
+      "id": "1",
+      "reference": "APP-001",
+      "date": "2024-07-20",
+      "statut": "validé",
+      "fournisseurId": 1,
+      "articles": [
+        {
+          "articleId": 1,
+          "quantite": 10,
+          "prix": 1.5
+        },
+        {
+          "articleId": 2,
+          "quantite": 5,
+          "prix": 2
+        }
+      ]
+    },
+    {
+      "id": "04e4",
+      "reference": "APPRO-003",
+      "date": "0005-03-22",
+      "statut": "validé",
+      "fournisseurId": "1",
+      "articles": [
+        {
+          "articleId": "1",
+          "quantite": "8",
+          "prix": "300"
+        }
+      ]
+    }
+  ]
+}
